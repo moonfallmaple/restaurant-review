@@ -1,7 +1,7 @@
 
 # Restaurant Reviews App
 
-**Project Demo:**https://moonfallmaple.github.io/Restaurant-Reviews-App/
+**Project Demo:** https://moonfallmaple.github.io/Restaurant-Reviews-App/
 
 ## Project Overview: 
 
