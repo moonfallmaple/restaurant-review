@@ -33,6 +33,9 @@
   .inside #footer{
     width: 100%;
   }
+  #reviews-list li{
+    padding:20px 20px 20px 20px;
+  }
 }
 
 
@@ -99,14 +102,23 @@
 @media screen and (min-width:1025px){
 /* ====================== Restaurant Listing ====================== */
   #restaurants-list{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display:flex;
+    flex-direction: row;
+    flex-flow:wrap;
+    /* justify-content: center; */
     text-align: center;
   }
   #restaurants-list li{
+    width:22%;
     text-align: center;
   }
 
 /* ====================== Restaurant Details ====================== */
- 
+
+#reviews-list li{
+  padding:20px 20px 20px 20px;
+}
+.inside #footer{
+  width:45%;
+}
 }
