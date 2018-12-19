@@ -5,12 +5,6 @@ let newMap
 let markers = []
 
 
-window.initMap =()=>{
-  let loc = {lat: 40.722, lng: -73.988};
-  newMap = new google.maps.Map(document.getElementById('map'), {zoom: 12, center: loc,scrollwheel: false});
-  updateRestaurants();
-}
-
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
  */
@@ -18,7 +12,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
   fetchNeighborhoods();
   fetchCuisines();
 });
-
+window.initMap =()=>{
+  let loc = {lat: 40.722, lng: -73.988};
+  newMap = new google.maps.Map(document.getElementById('map'), {zoom: 12, center: loc,scrollwheel: false});
+  updateRestaurants();
+}
 /**
  * Fetch all neighborhoods and set their HTML.
  */
