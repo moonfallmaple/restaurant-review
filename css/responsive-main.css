@@ -1,0 +1,68 @@
+/* ====================== Restaurant Listing ====================== */
+/* one columns menu-list */
+@media screen and (max-width: 549px){
+
+    #restaurants-list li{
+      width:85%;
+      padding: 0 15px 25px;
+      margin: 25px auto;
+      padding: 0 0 25px 0;
+      text-align: center;
+    }
+    .filter-options{
+      text-align: center;
+      height:auto;
+    }
+  }
+/* two columns menu-list */
+@media screen and (min-width:550px)and (max-width:769px){
+     
+  #restaurants-list{
+    display:flex;
+    flex-direction: row;
+    flex-flow:wrap;
+    /* justify-content: center; */
+    text-align: center;
+  }
+  #restaurants-list li{
+    width:45%;
+    text-align: center;
+  } 
+}
+/* three columns menu-list */
+@media screen and (min-width:770px)and (max-width:1024px){
+
+  #restaurants-list{
+    display:flex;
+    flex-direction: row;
+    flex-flow:wrap;
+    /* justify-content: center; */
+    text-align: center;
+  }
+  #restaurants-list li{
+    width:29%;
+    text-align: center;
+    padding:0 0 25px;
+  } 
+  #restaurants-list li{
+    margin-left:20px;
+  }
+ 
+}
+
+@media screen and (min-width:1025px){
+
+      #restaurants-list{
+        display:flex;
+        flex-direction: row;
+        flex-flow:wrap;
+        /* justify-content: center; */
+        text-align: center;
+      }
+      #restaurants-list li{
+        width:22%;
+        text-align: center;
+      }
+} 
+
+/* Restaurant-Detail-info */
