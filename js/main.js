@@ -1,7 +1,7 @@
 let restaurants,
   neighborhoods,
   cuisines
-let newMap
+let map
 let markers = []
 
 
@@ -12,11 +12,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
   fetchNeighborhoods();
   fetchCuisines();
 });
-window.initMap =()=>{
-  let loc = {lat: 40.722, lng: -73.988};
-  newMap = new google.maps.Map(document.getElementById('map'), {zoom: 12, center: loc,scrollwheel: false});
-  updateRestaurants();
-}
+
+
 /**
  * Fetch all neighborhoods and set their HTML.
  */
@@ -71,6 +68,23 @@ fillCuisinesHTML = (cuisines = self.cuisines) => {
     select.append(option);
   });
 }
+
+/**
+ * Initialize Google map, called from HTML.
+ */
+window.initMap =()=>{
+  let loc = {
+    lat: 40.722,
+    lng: -73.988
+  };
+  self.map = new google.maps.Map(document.getElementById('map'), 
+  {zoom: 12, 
+    center: loc,
+    scrollwheel: false
+  });
+  updateRestaurants();
+}
+
 
 
 /**
@@ -166,13 +180,15 @@ createRestaurantHTML = (restaurant) => {
 
 
 addMarkersToMap = (restaurants = self.restaurants) => {
+
   restaurants.forEach(restaurant => {
-    // Add marker to the map
-    const marker = DBHelper.mapMarkerForRestaurant(restaurant, self.newMap);
+  
+    const marker = DBHelper.mapMarkerForRestaurant(restaurant, self.map);
     google.maps.event.addListener(marker, 'click', () => {
       window.location.href = marker.url
     });
     self.markers.push(marker);
   });
-} 
+}
+
 

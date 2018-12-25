@@ -32,13 +32,24 @@ In order to run the application you can:
 
 1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
 
-    * In a terminal, check the version of Python you have: `python -V`. 
-    For Windows systems, Python 3.x is installed as `python` by default. To start a Python 3.x server, you can simply enter
+* For **Non**-Windows user input:
+
+    Python 2.x
+    ```
+    python -m SimpleHTTPServer 8000
+    ```
+
+    Python 3.x
+    ```
+    python3 -m http.server 8000 
+    ```
+
+* For Windows user input 
     ```
     python -m http.server 8000 
     ```
 
-    * If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+* If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
 
 2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
 
