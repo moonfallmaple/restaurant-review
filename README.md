@@ -54,7 +54,4 @@ In order to run the application you can:
 2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
 
 
- If you don't run server locally What you will see:
-
-
 

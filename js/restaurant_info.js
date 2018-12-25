@@ -150,16 +150,7 @@ fillBreadcrumb = (restaurant=self.restaurant) => {
   breadcrumb.appendChild(li);
 
   }
-  
-  // const homebtn =document.getElementById('home');
-
-  // homebtn.addEventListener('click', function(){
-  //     window.location.replace("https://moonfallmaple.github.io/restaurant-review/")
-
-  // })
-
-
-
+ 
 
 /**
  * Get a parameter by name from page URL.
