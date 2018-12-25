@@ -151,11 +151,12 @@ fillBreadcrumb = (restaurant=self.restaurant) => {
 
   }
   
-  const homebtn =document.getElementById('home');
-  homebtn.addEventListener('click', function(){
-      window.location.replace("https://moonfallmaple.github.io/restaurant-review/")
+  // const homebtn =document.getElementById('home');
 
-  })
+  // homebtn.addEventListener('click', function(){
+  //     window.location.replace("https://moonfallmaple.github.io/restaurant-review/")
+
+  // })
 
 
 
