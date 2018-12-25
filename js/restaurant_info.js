@@ -149,14 +149,14 @@ fillBreadcrumb = (restaurant=self.restaurant) => {
   li.innerHTML = restaurant.name;
   breadcrumb.appendChild(li);
 
+  }
+  
   const homebtn =document.getElementById('home');
   homebtn.addEventListener('click', function(){
-    window.location = "https://moonfallmaple.github.io/restaurant-review/";
-    // homebtn.firstElementChild.setAttribute(href,"https://moonfallmaple.github.io/restaurant-review/")
+  window.location.href  = "https://moonfallmaple.github.io/restaurant-review/";
+  // homebtn.firstElementChild.setAttribute(href,"https://moonfallmaple.github.io/restaurant-review/") 
   })
-  
 
-}
 
 
 
