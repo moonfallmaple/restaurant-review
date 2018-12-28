@@ -3,7 +3,7 @@ Restaurant Reviews App
 ===============================
 
 <div  align="left">
-<img src="./demo1.jpg" width = "900" height = "300" alt="图片名称" align=center />
+<img src="./demo1.jpg" width = "900" height = "330" alt="图片名称" align=center />
 <div  align="left">
 <img src="./demo2.jpg" width = "900" height = "270" alt="图片名称" align=center />
 </div>
