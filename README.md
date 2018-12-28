@@ -2,18 +2,30 @@
 Restaurant Reviews App
 ===============================
 
+<div  align="left">
+<img src="./demo1.jpg" width = "800" height = "600" alt="图片名称" align=center />
+<div  align="left">
+<img src="./demo2.jpg" width = "800" height = "600" alt="图片名称" align=center />
+</div>
+
 # Table of Contents
 
 * [Description](#description)
-* [Project Instructions](#Project-Instructions)
+* [Project Instructions](#Requirements)
 * [Run the Application](#run-the-application)
 
 
 ## Description
-Project created as part of the Udacity Front-End Developer Nanodegree.
+- In this projects, I will incrementally convert a static webpage to a mobile-ready web application. I took a static design that lacked accessibility and converted the design to be responsive on different sized displays and accessible for screen reader use. I also added a service worker to begin the process of creating a seamless offline experience for the users.
 
-## Project Instructions
-In this project, a static webpage that lacks accessibility is given to be converted into a mobile-ready web application. The design must be responsive on different sized displays and accessible for screen reader use. It will also be added a service worker to begin the process of creating a seamless offline experience for the users.
+- Project created as part of the Udacity Front-End Developer Nanodegree.
+
+## Requirements
+- Make the provided site fully responsive. All of the page elements should be usable and visible in any viewport, including desktop, tablet, and mobile displays. Images shouldn't overlap, and page elements should wrap when the viewport is too small to display them side by side.
+
+- Make the site accessible. Using what you've learned about web accessibility, ensure that alt attributes are present and descriptive for images. Add screen-reader-only attributes when appropriate to add useful supplementary text. Use semantic markup where possible, and aria attributes when semantic markup is not feasible.
+
+- Cache the static site for offline use. Using Cache API and a ServiceWorker, cache the data for the website so that any page (including images) that has been visited is accessible offline.
 
 ## Run the Application
 
