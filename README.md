@@ -3,15 +3,15 @@ Restaurant Reviews App
 ===============================
 
 <div  align="left">
-<img src="./demo1.jpg" width = "800" height = "600" alt="图片名称" align=center />
+<img src="./demo1.jpg" width = "800" height = "400" alt="图片名称" align=center />
 <div  align="left">
-<img src="./demo2.jpg" width = "800" height = "600" alt="图片名称" align=center />
+<img src="./demo2.jpg" width = "800" height = "400" alt="图片名称" align=center />
 </div>
 
 # Table of Contents
 
 * [Description](#description)
-* [Project Instructions](#Requirements)
+* [Requirements](#Requirements)
 * [Run the Application](#run-the-application)
 
 
