@@ -1,11 +1,12 @@
 
 @media screen and (max-width: 549px){
+
   #breadcrumb{
     width: -webkit-fill-available;
   }
-
   .inside #map-container{
     position: relative;
+    top:130px;
     overflow: hidden;
     height: 350px;
     width: -webkit-fill-available;
@@ -23,11 +24,13 @@
   }
 }
 @media screen and (min-width:550px)and (max-width:769px){
+
   #breadcrumb{
     width: -webkit-fill-available;
   }
   .inside #map-container{
     position: relative;
+    top:130px;
     overflow: hidden;
     height: 350px;
     width: -webkit-fill-available;
@@ -39,11 +42,17 @@
   }
 }
   @media screen and (min-width:770px)and (max-width:1024px){
-    #breadcrumb{
-      width: -webkit-fill-available;
+
+  #breadcrumb{
+    width: -webkit-fill-available;
+  }
+
+  #breadcrumb{
+    width: -webkit-fill-available;
   }
   .inside #map-container{
     position: relative;
+    top:130px;
     overflow: hidden;
     height: 350px;
     width: -webkit-fill-available;
@@ -53,10 +62,14 @@
   }
  
   }
+
+
   @media screen and (min-width:1025px){
-    #breadcrumb{
-      width: -webkit-fill-available;
+
+  #breadcrumb{
+    width: -webkit-fill-available;
   }
+
   #restaurant-container, #reviews-container{
     width:44%
   }
