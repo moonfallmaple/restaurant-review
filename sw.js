@@ -36,13 +36,7 @@ self.addEventListener('install', function(event) {
 		})
 	);
 });
-self.addEventListener('install', function(event) {
-	event.waitUntil(
-		caches.open(staticCacheName2).then(function(cache) {
-			return cache.addAll(urlsToCache);
-		})
-	);
-});
+
 
 /**
  * Activation of service worker
